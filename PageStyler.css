@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+.page{
+    background-color: rgb(49, 49, 49);
+}
+
+.div{
+    display: block;
+    height: 360px;
+    width: 400px;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+}
+
+.screen{
+    display: block;
+    height: 60px;
+    width: 100%;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    background-color: black;
+    color: white;
+    text-align: right;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.calc-buttons{
+    display: block;
+    height: 300px;
+    width: 100%;
+}
+
+.button-row{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 20%;
+}
+
+.button{
+    width: 25%;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: black;
+    background-color: rgb(226, 245, 159);
+}
+
+.double{
+    width: 50%;
+}
+
+.tripple{
+    width: 75%;
+}
+
+.right{
+    background-color: rgb(228, 84, 58);
+}
