@@ -4,13 +4,13 @@
 
 A simple calculator app, made with HTML, CSS and JavaScript
 
-A calculator web app for executing basic numerical operations in Mathematics.
+A calculator application for executing basic numerical operations in Mathematics.
 
 ---
 
 ## Contributor(s)
 
-Barnabas O. Babatunde <@Barnabas19>
+Barnabas Babatunde <@Barnabas19>
 
 ---
 
