@@ -1,27 +1,32 @@
-* {
+/* BORDER-BOX DECLARATION */
+html,
+*,
+*:before,
+*:after{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.page{
+/* MOBILE FIRST */
+body{
     background-color: rgb(49, 49, 49);
 }
 
 .div{
-    display: block;
-    height: 360px;
-    width: 400px;
-    border-style: solid;
-    border-width: thin;
-    border-color: black;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: stretch;
+    width: 92%;
+    height: 100%;
+    margin: 0 4% 0 4% ;
+    border: thin solid black;
 }
 
 .screen{
-    display: block;
-    height: 60px;
-    width: 100%;
-    border-style: solid;
-    border-width: thin;
-    border-color: black;
+    flex: 0 0 100%;
+    height: 30%;
+    border: thin solid black;
     background-color: black;
     color: white;
     text-align: right;
@@ -30,20 +35,23 @@
 }
 
 .calc-buttons{
-    display: block;
-    height: 300px;
-    width: 100%;
+    flex: 0 0 100%;
+    height: 70%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: stretch;
 }
 
 .button-row{
+    flex: 0 0 100%;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     align-items: stretch;
     height: 20%;
 }
 
 .button{
-    width: 25%;
+    flex: 0 0 25%;
     font-family: sans-serif;
     font-size: 30px;
     color: black;
@@ -51,11 +59,11 @@
 }
 
 .double{
-    width: 50%;
+    flex: 0 0 50%;
 }
 
 .tripple{
-    width: 75%;
+    flex: 0 0 75%;
 }
 
 .right{
